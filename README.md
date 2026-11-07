@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 <img src="JStream/src/main/resources/assets/images/logo/Raksha.png" height=300 width=200 alt="Typing SVG" />
@@ -347,3 +348,6 @@ Software Engineering Student · Faculty of Sciences of Bizerte · GLSI
 **© 2026 — Emna Ben Ali**
 
 </div>
+=======
+# J-stream-java-project
+>>>>>>> 1d2a7b3c69ba01d0920cf8bd6ea4515e343664e2
