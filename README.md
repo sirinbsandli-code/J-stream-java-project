@@ -1,304 +1,396 @@
-<<<<<<< HEAD
-<div align="center">
+# 🎬 RAKSHA | Streaming Platform
 
-<img src="JStream/src/main/resources/assets/images/logo/Raksha.png" height=300 width=200 alt="Typing SVG" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sirinbsandli-code/J-stream-java-project/main/JStream/src/main/resources/assets/images/logo/Raksha.png" alt="Raksha Logo" width="180"/>
+</p>
 
-<br/>
+<p align="center">
+  <strong>A Netflix-Inspired Desktop Streaming Experience</strong>
+  <br/>
+  Explore. Discover. Stream.
+</p>
 
-![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaFX](https://img.shields.io/badge/JavaFX-UI_Framework-0078D4?style=for-the-badge&logo=java&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![JDBC](https://img.shields.io/badge/JDBC-Data_Access-F7931E?style=for-the-badge&logo=java&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-Build_Tool-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaFX-UI_Framework-0078D4?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/JDBC-Data_Access-F7931E?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Maven-Build_Tool-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
+</p>
 
-<br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Year-2026-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/badge/Architecture-MVC-informational?style=flat-square" />
+  <img src="https://img.shields.io/badge/Platform-Desktop-E50914?style=flat-square" />
+</p>
 
-![Status](https://img.shields.io/badge/Status-Completed_✓-brightgreen?style=flat-square)
-![Year](https://img.shields.io/badge/Year-2026-blueviolet?style=flat-square)
-![Developer](https://img.shields.io/badge/Developer-Solo_Project-E50914?style=flat-square)
-![Architecture](https://img.shields.io/badge/Architecture-MVC-informational?style=flat-square)
-
-<br/>
-
-> **A Netflix-inspired desktop application built entirely with Java and JavaFX.**  
-> Dual user/admin roles · Secure JDBC authentication · Video browsing · Full content management dashboard — all in one polished interface.
-
-<br/>
-
-[🚀 View Source Code](https://github.com/baliemna2222-dev/ProjectS2/tree/emna) · [🌐 Project Details](https://baliemna2222-dev.github.io/emna-benali.github.io/raksha.html) · [👩‍💻 Portfolio](https://baliemna2222-dev.github.io/emna-benali.github.io/index.html)
-
-[![Database](https://img.shields.io/badge/🗄️_Database-jstreamdb.sql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://github.com/baliemna2222-dev/Raksha-Streaming-Platform/blob/emna/jstreamdb%20(8)%20(2).sql)
-
-[![Manual](https://img.shields.io/badge/📖_Manual-manuel.pdf-0078D4?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/baliemna2222-dev/Raksha-Streaming-Platform/blob/emna/manuel%20(1)%20(2).pdf)
-
----
-
-## 📸 Preview
-
-<div align="center">
-
-| User Interface | Admin Dashboard |
-|:-:|:-:|
-| 🎬 Browse & Stream | 🛠️ Manage Content |
-| Dark Netflix-inspired UI | Full CRUD operations |
-
-</div>
+<p align="center">
+  <a href="https://github.com/sirinbsandli-code/J-stream-java-project">🚀 Source Code</a> ·
+  <a href="#-application-preview">📸 Application Preview</a> ·
+  <a href="#-getting-started">⚙️ Installation</a> ·
+  <a href="#-developer">👩‍💻 Developer</a>
+</p>
 
 ---
 
-## ✨ What is Raksha?
+## ✨ About Raksha
 
-**Raksha** is a feature-complete desktop streaming simulation built from the ground up using **Java 17** and **JavaFX**, following the **MVC architectural pattern**. It replicates the look, feel, and functionality of real-world streaming platforms — with a dual-role system, a secure authentication flow, and a fully integrated MySQL backend.
+**Raksha** is a Java-based desktop streaming application inspired by the experience and visual identity of modern streaming platforms such as Netflix.
 
-Designed and developed **solo**, this project demonstrates clean software engineering principles: modularity, layered architecture, role-based access control, and real-time database integration.
+Developed using **Java 17 and JavaFX**, the application provides an interactive environment where users can explore a multimedia library, discover movies and series, and enjoy video playback directly within the application.
 
----
+Raksha also integrates a dedicated administrative dashboard, allowing administrators to manage multimedia content, organize categories, and control registered user accounts.
 
-## 🗂️ Table of Contents
+Built around the **Model-View-Controller (MVC)** architectural pattern, the application connects to a MySQL relational database through JDBC, ensuring structured data management and persistent storage.
 
-- [Features](#-features)
-- [Architecture](#-architecture)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-- [Database Setup](#-database-setup)
-- [App Manual](#-app-manual)
-- [Challenges & Solutions](#-challenges--solutions)
-- [Project Structure](#-project-structure)
-- [Developer](#-developer)
+This collaborative academic project explores important software engineering concepts, including object-oriented programming, database integration, modular development, role-based access control, and desktop interface design.
 
 ---
 
-## 🎯 Features
+## 📸 Application Preview
 
-<details>
-<summary><b>🔑 Role-Based Authentication</b></summary>
+| User Experience | Administration Dashboard |
+|:---:|:---:|
+| 🎬 Browse Movies & Series | 🛠️ Manage Content |
+| Integrated Video Player | Full CRUD Operations |
+| Dark Streaming Interface | User & Role Management |
 
-Login system supporting two roles: **User** and **Admin**. Role is stored in the database and determines which interface loads on sign-in. Sessions are managed in memory throughout the application lifecycle. Passwords are **SHA-256 hashed** — no plain text ever touches the database.
+<p align="center">
+  <em>Application screenshots coming soon.</em>
+</p>
 
-</details>
-
-<details>
-<summary><b>🎬 Content Browsing & Discovery</b></summary>
-
-Users can browse a full library of **movies and series**. Content is loaded dynamically from MySQL via JDBC and presented in a horizontally scrollable row layout — similar to Netflix's core browsing UX.
-
-</details>
-
-<details>
-<summary><b>▶️ In-App Video Streaming</b></summary>
-
-Integrated **JavaFX MediaPlayer** for in-application playback. Custom controls include play/pause, seek bar, volume, and fullscreen — all built from scratch.
-
-</details>
-
-<details>
-<summary><b>🛠️ Admin Content Management</b></summary>
-
-Admins access a **separate dashboard** to add, edit, and delete movies and series. All changes persist to the database immediately and reflect in the user-facing library in real time.
-
-</details>
-
-<details>
-<summary><b>👥 User Management</b></summary>
-
-Admin panel includes full user management: view registered accounts, change roles, or deactivate accounts — all updating the MySQL user table live.
-
-</details>
-
-<details>
-<summary><b>🎨 Dark Netflix-Inspired UI</b></summary>
-
-JavaFX styled with **custom CSS** — dark colour palette, smooth scene transitions, hover states, and a layout hierarchy modelled after real streaming platforms.
-
-</details>
+<!-- Add your screenshots here:
+![User Interface](screenshots/user-interface.png)
+![Admin Dashboard](screenshots/admin-dashboard.png)
+-->
 
 ---
 
-## 🏗️ Architecture
+## 🚀 Key Features
 
-```
+### 🔐 Authentication & Role-Based Access
+
+A centralized authentication system supporting two distinct account roles:
+
+- **User:** Access to the streaming interface and multimedia library.
+- **Admin:** Access to the administrative dashboard.
+
+Additional capabilities:
+- Database-based authentication through JDBC.
+- SHA-256 password hashing.
+- Role-based interface navigation.
+- In-memory session management.
+- Prepared SQL statements for database operations.
+
+### 🎬 Content Browsing & Discovery
+
+An interactive media library allowing users to explore movies and television series.
+
+- Dynamic content retrieval from MySQL.
+- Horizontally scrollable content rows.
+- Organized media categories.
+- Database-driven content presentation.
+- A browsing experience inspired by modern streaming platforms.
+
+### ▶️ Integrated Video Player
+
+Raksha includes an integrated JavaFX MediaPlayer for video playback.
+
+Custom playback controls include:
+- Play and pause.
+- Video progress and seeking.
+- Volume adjustment.
+- Fullscreen mode.
+- Integrated playback interface.
+
+### 🛠️ Admin Dashboard
+
+A dedicated administrative environment for managing the platform.
+
+**Content Management**
+- Add, edit, and delete movies.
+- Manage television series.
+- Organize episodes by season.
+- Create and rename categories.
+- Update multimedia information.
+
+**User Management**
+- View registered accounts.
+- Modify user roles.
+- Deactivate accounts.
+- Manage user records through MySQL.
+
+### 🎨 Custom User Interface
+
+A dark interface inspired by the visual identity of Netflix.
+
+- JavaFX and custom CSS styling.
+- FXML-based layouts.
+- Interactive hover effects.
+- Smooth scene transitions.
+- Separate user and administrator interfaces.
+- Consistent visual hierarchy.
+
+---
+
+## 🏗️ System Architecture
+
+Raksha follows the **Model-View-Controller (MVC)** architectural pattern, with a layered structure separating the interface, application logic, and database operations.
+
+```text
 ┌─────────────────────────────────────────────────┐
-│              USER INTERFACE LAYER                │
-│         JavaFX · FXML · Custom CSS              │
-│    [ User View ]        [ Admin Dashboard ]     │
+│              PRESENTATION LAYER                 │
+│                                                 │
+│              JavaFX · FXML · CSS                │
+│                                                 │
+│       User Interface  |  Admin Dashboard        │
 └──────────────────────┬──────────────────────────┘
-                       │ Presentation Layer
+                       │
                        ▼
 ┌─────────────────────────────────────────────────┐
-│            APPLICATION LAYER (MVC)               │
-│   Controllers · Event Handlers · Business Logic  │
-│         SceneManager · Session State            │
+│              APPLICATION LAYER                  │
+│                                                 │
+│          Controllers · Event Handlers           │
+│          Business Logic · SceneManager          │
+│               Session Management                │
 └──────────────────────┬──────────────────────────┘
-                       │ Service / Logic Layer
+                       │
                        ▼
 ┌─────────────────────────────────────────────────┐
-│             DATA ACCESS LAYER                    │
-│       JDBC · DAO Classes · Prepared Statements   │
+│               DATA ACCESS LAYER                 │
+│                                                 │
+│             JDBC · DAO Classes                  │
+│          Prepared Statements · SQL             │
 └──────────────────────┬──────────────────────────┘
-                       │ Database Layer
+                       │
                        ▼
 ┌─────────────────────────────────────────────────┐
-│               MySQL DATABASE                     │
-│     Users · Content · Roles · Watch History      │
+│                DATABASE LAYER                   │
+│                                                 │
+│                  MySQL                          │
+│                                                 │
+│       Users · Roles · Movies · Series           │
+│       Episodes · Categories · History           │
 └─────────────────────────────────────────────────┘
 ```
 
----
+### Architectural Principles
 
-## 🛠️ Tech Stack
-
-| Technology | Role | Highlights |
-|------------|------|------------|
-| ☕ **Java 17** | Core language | OOP, MVC, event handling, business logic |
-| 🎨 **JavaFX** | UI Framework | Scenes, FXML, CSS theming, media playback |
-| 🗄️ **MySQL** | Database | Normalized schema — users, roles, content, sessions |
-| 🔌 **JDBC** | Data Access | Prepared statements, DAO pattern, SQL injection protection |
-| 🏗️ **Maven** | Build Tool | Dependency management, project structure |
-| 🖼️ **Scene Builder** | UI Design | FXML-based layout design |
+- **Modularity:** Independent components with clearly defined responsibilities.
+- **Separation of Concerns:** Interface, business logic, and database operations are separated.
+- **Reusability:** Shared utilities and services reduce code duplication.
+- **Maintainability:** MVC and DAO patterns facilitate future development.
 
 ---
 
-## 🚀 Getting Started
+## 🧰 Technology Stack
+
+| Technology | Role | Implementation |
+|---|---|---|
+| ☕ Java 17 | Core Language | OOP, business logic, event handling |
+| 🎨 JavaFX | UI Framework | Scenes, FXML, CSS, MediaPlayer |
+| 🗄️ MySQL | Database | Relational data storage |
+| 🔌 JDBC | Data Access | SQL queries, database connectivity |
+| 🏗️ Maven | Build Tool | Dependency management |
+| 🖼️ Scene Builder | UI Design | FXML interface design |
+| 🔧 Git & GitHub | Version Control | Source code management |
+
+---
+
+## ⚙️ Getting Started
+
+Follow these instructions to configure and launch Raksha locally.
 
 ### Prerequisites
 
-```
-Java 17+
-MySQL 8.0+
-Maven 3.8+
-```
+Make sure the following tools are installed:
 
-### Setup
+- Java Development Kit (JDK) 17 or later.
+- MySQL Server 8.0 or later.
+- Apache Maven 3.8 or later.
+- A Java-compatible IDE (IntelliJ IDEA, Eclipse, or VS Code).
+
+### 1. Clone the Repository
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/baliemna2222-dev/ProjectS2.git
-cd ProjectS2
-git checkout emna
+git clone https://github.com/sirinbsandli-code/J-stream-java-project.git
+```
 
-# 2. Import the database — see section below ↓
+Navigate to the project directory:
 
-# 3. Edit src/main/resources/db.properties with your MySQL credentials
+```bash
+cd J-stream-java-project
+```
+
+### 2. Import the Database
+
+Import the provided SQL script into your local MySQL server.
+
+See the Database Configuration section below.
+
+### 3. Configure Database Credentials
+
+Locate the database configuration file:
+
+```text
+src/main/resources/db.properties
+```
+
+Update it with your local MySQL credentials:
+
+```properties
 db.url=jdbc:mysql://localhost:3306/raksha_db
 db.username=your_username
 db.password=your_password
+```
 
-# 4. Build and run
-mvn clean javafx:run
+### 4. Build and Run
+
+Build the project:
+
+```bash
+mvn clean install
+```
+
+Launch the application:
+
+```bash
+mvn javafx:run
 ```
 
 ---
 
-## 🗄️ Database Setup
+## 🗄️ Database Configuration
 
-> [`jstreamdb (8) (2).sql`](jstreamdb%20(8)%20(2).sql) contains the **complete database** for this project — all tables, relationships, and sample data. You must import this file into MySQL **before** launching the app.
+The project includes an SQL initialization script:
 
-### What's inside
+[`jstreamdb (8) (2).sql`](https://github.com/sirinbsandli-code/J-stream-java-project/blob/main/jstreamdb%20%288%29%20%282%29.sql)
 
-- ✅ Creates `raksha_db` automatically
-- ✅ All 7 tables: `users`, `roles`, `movies`, `series`, `episodes`, `categories`, `watch_history`
-- ✅ Foreign keys, constraints, and UTF-8 encoding
-- ✅ Default admin & user accounts with hashed passwords
-- ✅ Sample movies, series, episodes, and categories ready to use
+It contains the database schema, relationships, constraints, and sample data required to initialize the application.
 
-### How to import
+### Database Contents
+
+The database includes seven main tables:
+
+| Table | Description |
+|---|---|
+| `users` | Registered user accounts |
+| `roles` | User and administrator roles |
+| `movies` | Movie information |
+| `series` | Television series |
+| `episodes` | Series episodes |
+| `categories` | Media categories |
+| `watch_history` | User viewing history |
+
+### Import Instructions
 
 **Option A — Command Line**
+
 ```bash
 mysql -u root -p < "jstreamdb (8) (2).sql"
 ```
 
 **Option B — MySQL Workbench**
-1. Open MySQL Workbench and connect to your server
-2. Go to **File → Open SQL Script** → select `jstreamdb (8) (2).sql`
-3. Click ⚡ **Execute**
+
+1. Open MySQL Workbench.
+2. Connect to your MySQL server.
+3. Select File → Open SQL Script.
+4. Choose `jstreamdb (8) (2).sql`.
+5. Execute the script using the lightning icon.
 
 **Option C — phpMyAdmin**
-1. Open `http://localhost/phpmyadmin`
-2. Click **Import** → choose `jstreamdb (8) (2).sql` → click **Go**
 
-### Default accounts
+1. Open `http://localhost/phpmyadmin`.
+2. Navigate to Import.
+3. Select the SQL initialization file.
+4. Click Go.
+
+### Default Test Accounts
 
 | Role | Username | Password |
-|------|----------|----------|
+|---|---|---|
 | 👑 Admin | `admin` | `admin123` |
 | 👤 User | `demo_user` | `user123` |
 
-> ⚠️ Change these passwords after your first login.
+> ⚠️ These are demonstration credentials. Change them before using the application in a real environment.
 
 ---
 
-## 📖 App Manual
+## 📖 Application Manual
 
-> [`manuel (1) (2).pdf`](manuel%20(1)%20(2).pdf) is a **step-by-step guide** to using every part of Raksha — for both regular users and administrators.
+A user and administrator guide is available to explain the application's main functionalities.
 
-<details>
-<summary><b>👤 What the User Guide covers</b></summary>
+[`📖 Open Application Manual (PDF)`](https://github.com/sirinbsandli-code/J-stream-java-project/blob/main/manuel%20%281%29%20%282%29.pdf)
 
-- Logging in and navigating the home screen
-- Browsing movies and series in scrollable rows
-- Watching content with the built-in video player
-- Player controls: play/pause, seek, volume, fullscreen
-- Watching episodes of a series by season
-- Viewing your watch history
-- Logging out
+### User Guide
 
-</details>
+- Logging in and navigating the home screen.
+- Browsing movies and series.
+- Watching content through the integrated video player.
+- Using playback controls.
+- Exploring episodes by season.
+- Viewing watch history.
+- Logging out.
 
-<details>
-<summary><b>🛠️ What the Admin Guide covers</b></summary>
+### Administrator Guide
 
-- Accessing the Admin Dashboard (loads automatically on admin login)
-- Adding, editing, and deleting **movies**
-- Managing **series** and their **episodes** per season
-- Creating and renaming **categories**
-- Viewing all users, changing their role, or deactivating their account
+- Accessing the Admin Dashboard.
+- Adding, editing, and deleting movies.
+- Managing series and episodes.
+- Creating and renaming categories.
+- Viewing registered users.
+- Modifying user roles.
+- Deactivating accounts.
 
-</details>
+### Troubleshooting
 
-<details>
-<summary><b>🔧 Troubleshooting</b></summary>
-
-Common issues and fixes — wrong credentials, missing database, video not playing, blank content rows, and more. All detailed in [`manuel (1) (2).pdf`](manuel%20(1)%20(2).pdf).
-
-</details>
+The manual also provides solutions for common issues, including authentication errors, missing database connections, playback problems, and empty content sections.
 
 ---
 
-## 🧠 Challenges & Solutions
+## 🧠 Technical Challenges & Solutions
 
-### 1 · Role-Based Scene Management
+### 01 — Role-Based Scene Management
 
-> JavaFX has no built-in routing system.
+**Challenge:** JavaFX does not provide a built-in routing mechanism for switching between multiple application interfaces.
 
-**→ Solution:** Built a central `SceneManager` utility that maps roles to FXML roots. On login, the controller queries the user's role from the DB, then delegates to `SceneManager` to load and swap the correct scene on the primary Stage — clean, no duplication.
+**Solution:** A centralized `SceneManager` utility manages scene transitions. After authentication, the user's role determines which FXML interface is loaded into the primary Stage.
 
----
+### 02 — Password Handling
 
-### 2 · Secure Password Storage
+**Challenge:** Storing plain-text passwords creates significant security risks.
 
-> Storing plain-text passwords is a critical vulnerability.
-
-**→ Solution:** Used Java's built-in `MessageDigest` with **SHA-256** to hash passwords before storage. On login, the input is hashed and compared to the stored hash — no plain text ever reaches the database.
+**Solution:** Java's `MessageDigest` API was used to hash passwords using SHA-256 before database storage.
 
 ```java
 MessageDigest md = MessageDigest.getInstance("SHA-256");
-byte[] hash = md.digest(password.getBytes(StandardCharsets.UTF_8));
+
+byte[] hash = md.digest(
+    password.getBytes(StandardCharsets.UTF_8)
+);
 ```
 
----
+*Security note: SHA-256 is the implemented demonstration approach. Production authentication should use a dedicated salted password-hashing algorithm such as Argon2id or bcrypt.*
 
-### 3 · Dynamic Content Loading Without UI Freezes
+### 03 — Database Operations Without UI Freezes
 
-> JavaFX runs on a single UI thread — blocking it with DB queries freezes the app.
+**Challenge:** JavaFX runs on a single UI thread. Performing long database operations directly on this thread can make the application unresponsive.
 
-**→ Solution:** Offloaded all database queries to JavaFX `Task` objects on background threads. Used `Platform.runLater()` to safely update UI components once data was ready — keeping the interface fully responsive.
+**Solution:** JavaFX `Task` objects execute database queries in background threads. Results are then applied to the interface through JavaFX's UI-thread mechanisms.
 
 ```java
 Task<List<Movie>> loadMovies = new Task<>() {
-    @Override protected List<Movie> call() { return movieDAO.findAll(); }
+    @Override
+    protected List<Movie> call() {
+        return movieDAO.findAll();
+    }
 };
-loadMovies.setOnSucceeded(e -> Platform.runLater(() -> updateUI(loadMovies.getValue())));
+
+loadMovies.setOnSucceeded(event -> {
+    updateUI(loadMovies.getValue());
+});
+
 new Thread(loadMovies).start();
 ```
 
@@ -306,48 +398,60 @@ new Thread(loadMovies).start();
 
 ## 📁 Project Structure
 
-```
-raksha/
-├── jstreamdb (8) (2).sql      ← Import this into MySQL first
-├── manuel (1) (2).pdf         ← User & Admin guide
+The application is organized into modular packages following MVC and DAO architectural principles.
+
+```text
+Raksha/
+│
+├── jstreamdb (8) (2).sql
+├── manuel (1) (2).pdf
 ├── pom.xml
+│
 └── src/
     └── main/
         ├── java/
-        │   ├── controllers/   # JavaFX controllers (MVC)
-        │   ├── dao/           # Data Access Objects
-        │   ├── models/        # Entity classes
-        │   ├── services/      # Business logic
-        │   └── utils/         # SceneManager, HashUtil, etc.
+        │   ├── controllers/
+        │   ├── dao/
+        │   ├── models/
+        │   ├── services/
+        │   └── utils/
+        │
         └── resources/
-            ├── fxml/          # Scene layouts
-            ├── css/           # Stylesheets
-            └── db.properties  # DB credentials
+            ├── fxml/
+            ├── css/
+            └── db.properties
 ```
 
 ---
 
 ## 👩‍💻 Developer
 
-<div align="center">
+<p align="center">
+  <strong>Sirine Sandli</strong>
+  <br/>
+  Software Engineering Student
+  <br/><br/>
+  <a href="https://github.com/sirinbsandli-code">
+    <img src="https://img.shields.io/badge/GitHub-Visit_Profile-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-**Emna Ben Ali**  
-Software Engineering Student · Faculty of Sciences of Bizerte · GLSI
+This repository presents my work and contribution to **Raksha**, a collaborative academic software project focused on desktop application development, database integration, and JavaFX technologies.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-E50914?style=for-the-badge&logo=googlechrome&logoColor=white)](https://baliemna2222-dev.github.io/emna-benali.github.io/index.html)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/baliemna2222-dev)
+### Areas of Interest
 
-</div>
+- Software Engineering
+- Object-Oriented Programming
+- Desktop Application Development
+- Database Design and Management
+- User Interface Development
 
 ---
 
-<div align="center">
-
-*Built with ☕ Java, 🎨 JavaFX, and ∞ ambition.*
-
-**© 2026 — Emna Ben Ali**
-
-</div>
-=======
-# J-stream-java-project
->>>>>>> 1d2a7b3c69ba01d0920cf8bd6ea4515e343664e2
+<p align="center">
+  <strong>RAKSHA — Bringing the Streaming Experience to Desktop.</strong>
+  <br/><br/>
+  Built with ☕ Java · 🎨 JavaFX · 🗄️ MySQL
+  <br/><br/>
+  © 2026 — Sirine Sandli
+</p>
