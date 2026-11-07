@@ -427,7 +427,7 @@ Raksha/
 ## 👩‍💻 Developer
 
 <p align="center">
-  <strong>Sirine Sandli</strong>
+  <strong>Sirin Sandli</strong>
   <br/>
   Software Engineering Student
   <br/><br/>
@@ -453,5 +453,5 @@ This repository presents my work and contribution to **Raksha**, a collaborative
   <br/><br/>
   Built with ☕ Java · 🎨 JavaFX · 🗄️ MySQL
   <br/><br/>
-  © 2026 — Sirine Sandli
+  © 2026 — Sirin Sandli
 </p>
